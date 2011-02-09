@@ -1,4 +1,10 @@
 Ajoneuvoforum1::Application.routes.draw do
+  resources :ilmoituksets
+
+  resources :ilmoitus
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
